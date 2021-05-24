@@ -4,7 +4,7 @@ def feriasLiquido(salarioBruto):
 
         ferias = salarioBruto + (salarioBruto / 3);
         salarioLiquido = calcularsalarioliquido(ferias)
-
+        batata = 0
         return salarioLiquido
 
 
