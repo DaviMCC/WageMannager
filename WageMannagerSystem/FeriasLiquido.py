@@ -2,8 +2,8 @@ from SalarioLiquido import calcularsalarioliquido
 
 def feriasLiquido(salarioBruto):
 
-        ferias = salarioBruto + (salarioBruto / 3);
-        salarioLiquido = calcularsalarioliquido(ferias)
+        feriasTot = salarioBruto + (salarioBruto / 3);
+        salarioLiquido = calcularsalarioliquido(feriasTot)
 
         return salarioLiquido
 
